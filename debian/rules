@@ -1,0 +1,32 @@
+#!/usr/bin/make -f
+# -*- makefile -*-
+# Sample debian/rules that uses debhelper.
+# This file was originally written by Joey Hess and Craig Small.
+# As a special exception, when this file is copied by dh-make into a
+# dh-make output file, you may use that output file without restriction.
+# This special exception was added by Craig Small in version 0.37 of dh-make.
+
+# Uncomment this to turn on verbose mode.
+#export DH_VERBOSE=1
+
+%:
+	dh $@ 
+
+
+override_dh_install: custom-files
+
+	dh_install
+	#dllxh_install
+
+# Build architecture-dependent files here.
+custom-files:
+
+ifeq ($(DEB_BUILD_ARCH), i386)
+	cp LinuxCmapTools_v6.01.01_07-23-15.bin ./lliurex-cmaptools.install-files/usr/share/llx-cmaptools/LinuxCmapTools_v6.01.01_07-23-15.bin
+endif
+
+ifeq ($(DEB_BUILD_ARCH), amd64)
+	cp Linuxx64CmapTools_v6.01.01_07-23-15.bin ./lliurex-cmaptools.install-files/usr/share/llx-cmaptools/Linuxx64CmapTools_v6.01.01_07-23-15.bin
+endif
+
+

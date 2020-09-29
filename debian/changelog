@@ -1,0 +1,35 @@
+lliurex-cmaptools (0.61) bionic; urgency=medium
+
+  * Initial release for bionic
+
+ -- Juan Ramon Pelegrina <juapesai@hotmail.com>  Wed, 03 Oct 2018 16:03:27 +0200
+
+lliurex-cmaptools (0.51) xenial; urgency=medium
+
+  * Fix a bug with bin files (given execute permission)
+
+ -- Juan Ramon Pelegrina <juapesai@hotmail.com>  Thu, 11 Feb 2016 12:28:42 +0100
+
+lliurex-cmaptools (0.5) xenial; urgency=medium
+
+  * First release to xenial
+
+ -- Juan Ramon Pelegrina <juapesai@hotmail.com>  Tue, 02 Feb 2016 16:34:28 +0100
+
+lliurex-cmaptools (0.21) trusty; urgency=high
+
+  *Configured for trusty 
+
+ -- Daniel Duran Vecino <daduve@gmail.com>  Mon, 29 Sep 2014 16:42:29 +0200
+
+lliurex-cmaptools (0.2) precise; urgency=low
+
+  * Eliminated png file 
+
+ -- Jaime Munyoz Fayos <munyoz_jaifay@gva.es>  Mon, 21 Oct 2013 11:57:41 +0200
+
+lliurex-cmaptools (0.1) precise; urgency=low
+
+  * Initial release isolated from zero-lliurex-cmaptools
+
+ -- Jaime Munyoz Fayos <munyoz_jaifay@gva.es>  Mon, 27 May 2013 09:27:16 +0200
