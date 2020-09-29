@@ -1,3 +1,9 @@
+lliurex-cmaptools (0.71) focal; urgency=medium
+
+  * Initial release for focal
+
+ -- Juan Ramon Pelegrina <juapesai@hotmail.com>  Tue, 29 Sep 2020 13:34:57 +0200
+
 lliurex-cmaptools (0.61) bionic; urgency=medium
 
   * Initial release for bionic
